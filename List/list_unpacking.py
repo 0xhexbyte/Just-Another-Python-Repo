@@ -9,4 +9,9 @@ sasta_rasta = ["a", "b", "c", "d", "e", ]
 first, second, third, four, five = sasta_rasta  # this is called list unpacking
 # or if we want just the first and second, we can do the following:
 f1, f2, *extras = swift_list
+print(f1)
 print(extras)
+# also, if we wish to put the last item in a variable, we can do it as:
+initial, *others, last = swift_list
+print(last)
+print(*others)
