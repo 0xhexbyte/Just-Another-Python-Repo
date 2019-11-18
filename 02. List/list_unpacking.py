@@ -1,6 +1,6 @@
 swift_list = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 print(swift_list)
-sasta_rasta = ["a", "b", "c", "d", "e", ]
+sasta_rasta = ["a", "b", "c", "d", "e"]
 # we can assign individual list items to variables as such:
 # var1 = swift_list[1]
 # var2 = swift_list[2]
