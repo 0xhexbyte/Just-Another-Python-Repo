@@ -1,2 +1,3 @@
+
 print("I don't know python !! ;_;")
-print ("^"*10)
+print("^"*10)

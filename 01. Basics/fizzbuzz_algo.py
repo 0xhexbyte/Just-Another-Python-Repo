@@ -9,4 +9,4 @@ def fizz_buzz(input):
         print(input)
 
 
-fizz_buzz(7)
+fizz_buzz(15)
