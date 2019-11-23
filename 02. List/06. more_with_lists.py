@@ -1,15 +1,17 @@
 laptop = ['sleek', 'fast', 'good-looking', 'fame', 'shahpura']
-# to find the index of an item in a list
+
+# To find the index of an item in a list
 print(laptop.index('fast'))
 
 # print(laptop.index('wow'))
-# this gives error, so we put it like this:
+# This gives error, so we put it like this:
+
 if 'wow' in laptop:
     print(laptop.index('wow'))
 else:
     print('Hehehehehe')
 
-# to print the number of occurences of a particular item in a list:
+# To print the number of occurences of a particular item in a list:
 print(laptop.count('wow'))
 
 # SORTING LISTS:
