@@ -1,3 +1,6 @@
+# 'with' clause works only with some objects and not all, so relax if you don't find it working in some scenario, its very likely that
+# its not meant for those objects, cheers.
+
 try:
     with open("excep_sample.txt") as moifile:
         print("File is currently opened.")
@@ -25,3 +28,4 @@ except ZeroDivisionError:
     print("Cannot be divided by zero. xP")
 else:
     print("No exception.")
+
