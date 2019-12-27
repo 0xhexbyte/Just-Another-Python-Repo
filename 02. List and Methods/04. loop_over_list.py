@@ -2,7 +2,7 @@ cars = ["Bugatti Veyron", "Bugatti Chiron",
         "Lamborghini Aventador", "Rolls Royce Phantom"]
 
 for car in cars:
-    print(car)
+    print(cars)
 
 # enumerate() gives us a tuple
 for car in enumerate(cars):

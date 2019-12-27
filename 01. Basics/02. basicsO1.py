@@ -18,5 +18,7 @@ def earning(value, by=2):
     return value*by
 
 
+print(earning(1000))
 achieved = earning(1000, 5)
+# providing this second value, overrides the default value
 print(achieved)

@@ -18,7 +18,7 @@ try:
     intended_error = 1/x
     print(intended_error)
 except ValueError:
-    print("Only numeric, not alpha. 8)")
+    print("Only numeric, no character or alpha. 8)")
 except ZeroDivisionError:
     print("Cannot be divided by zero. xP")
 else:
@@ -34,7 +34,7 @@ try:
     print(intended_error_call)
     # sample.close()                              # Closing the sample file
 except ValueError:
-    print("Only numeric, not alpha. 8)")
+    print("Only numeric, no characters or alpha. 8)")
     # sample.close()
 except ZeroDivisionError:
     print("Cannot be divided by zero. xP")
