@@ -27,7 +27,7 @@ if not stack_ex:
 
 # Module is a collection of code written for our ease. To implement the concept of queue, we'll use a module:
 # deque is a list like sequence optimized for data access near endpoints.
-# from collections import deque
+# from collections import deque (this line went on top when we saved which is default way of writing it)
 
 que = deque([])
 que.append(1)

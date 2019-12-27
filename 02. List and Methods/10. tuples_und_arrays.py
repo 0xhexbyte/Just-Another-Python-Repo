@@ -1,4 +1,4 @@
-# We can define tuples either by placing them in curly brackkets or by just writing the items to be placed, separated by commas.
+# We can define tuples either by placing them in curly brackets or by just writing the items to be placed, separated by commas.
 from array import array
 lullaby = 1, 2, 3
 print(type(lullaby))
@@ -23,6 +23,7 @@ if 3 in lullaby:
     print("Hai na re baba")
 
 # Arrays
+print('Array from here on:')
 gun = array("i", [1, 2, 3])
 print(gun)
 gun.append(5)
@@ -31,5 +32,5 @@ gun.insert(3, 6)        # Inserts 6 before 3rd indexed item
 print(gun)
 gun.pop()               # Pops out the last item
 print(gun)
-gun.remove(1)           # Removes the first occurence of that ite
+gun.remove(1)           # Removes the first occurence of that item
 print(gun)

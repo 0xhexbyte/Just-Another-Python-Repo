@@ -11,8 +11,8 @@ print(elpha)
 # elpha.clear()
 # Removes all items from a set
 
-first = {1, 2}
-second = {3, 4}
+first = {5, 3}
+second = {3, 8}
 
 # Union of Sets:
 print(first | second)
@@ -26,7 +26,7 @@ print(first ^ second)
 # Items of a set are not in sequence, hence, we can't access them using indexing.
 
 # Dictonaries:
-# Are always in a keey:value pair.
+# Are always in a key:value pair.
 
 # oxphurd={"x":1,"y":2}
 # -----OR-----

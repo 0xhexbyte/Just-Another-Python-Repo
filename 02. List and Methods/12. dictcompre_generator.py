@@ -1,7 +1,7 @@
 # Dictionary Comprehension
 # Example:
-
 from sys import getsizeof
+print('Dictionary Comprehension')
 swift = {}
 for x in range(10):
     swift[x] = x*2
