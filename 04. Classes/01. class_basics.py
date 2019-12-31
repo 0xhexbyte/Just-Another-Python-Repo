@@ -27,7 +27,7 @@ judy = Judy(0, 1)
 print(type(judy))
 print(isinstance(judy, Judy))
 
-# These default or pre-defined methods aree often referred to as magic methods,
+# These default or pre-defined methods are often referred to as magic methods,
 # there are several magic methods and one of them is '__init__'
 # To supply initial/default values for any variable, we need to use constructors.
 # '__init__' is called a magic method and is called automatically when the object is created.
@@ -44,4 +44,4 @@ Judy.uip_piu = "blue"
 print(judy.uip_piu)
 
 # As we can see, specifically declaring the uip_piu variable of Judy class, overrides the
-# value and this will happen for every object of that class.
+# value and this will happen for every object of that class because uip_piu is a class level variable.
